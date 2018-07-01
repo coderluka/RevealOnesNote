@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\resources">
+      <UniqueIdentifier>{437bf30a-c9db-42e8-a89f-794bacfe06ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\img">
+      <UniqueIdentifier>{612dc076-28e0-473f-bf30-0ccac04da18b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,5 +37,13 @@
     <Text Include="READ_ME.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\img\categoriesView.bmp">
+      <Filter>Resource Files\resources\img</Filter>
+    </Image>
+    <Image Include="resources\img\categorizedNotesView.bmp">
+      <Filter>Resource Files\resources\img</Filter>
+    </Image>
   </ItemGroup>
 </Project>
