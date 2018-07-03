@@ -1,8 +1,9 @@
-#include "guiCreation.h"
+#include "frontend.h"
 
 int main()
 {
-	CreateLayout();
+	frontend frontWindow{};
+	frontWindow.CreateLayout();
 
 	return 0;
 }
